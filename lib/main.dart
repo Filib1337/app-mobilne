@@ -9,12 +9,12 @@ import 'package:untitled/services/auth.dart';
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
   if(kIsWeb){
-    await Firebase.initializeApp(options:const FirebaseOptions(apiKey: "AIzaSyC_9S76MZYui9CmZLiqNV4SOmRQQeJcazc",
-        authDomain: "untitled-133a9.firebaseapp.com",
-        projectId: "untitled-133a9",
-        storageBucket: "untitled-133a9.appspot.com",
-        messagingSenderId: "601196560690",
-        appId: "1:601196560690:web:afddb6c38331bab3c9972b"));
+    await Firebase.initializeApp(options:const FirebaseOptions(apiKey: "usuniete dla bezpieczenstwa",
+        authDomain: "usuniete dla bezpieczenstwa",
+        projectId: "usuniete dla bezpieczenstwa",
+        storageBucket: "usuniete dla bezpieczenstwa",
+        messagingSenderId: "usuniete dla bezpieczenstwa",
+        appId: "usuniete dla bezpieczenstwa"));
   }else{
     Firebase.initializeApp();
   }
